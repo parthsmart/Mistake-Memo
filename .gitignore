@@ -2,3 +2,6 @@ server/.env
 client/.env
 node_modules/
 dist/
+
+.vercel
+.env*
