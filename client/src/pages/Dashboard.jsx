@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowUpRight, BadgeCheck, BookOpen, Brain, Check, ChevronDown, Filter, Pencil, Plus, Sparkles, Trash2, X } from "lucide-react";
 import Toast from "../components/Toast";
-import StatCounter from "../components/StatCounter";
+import StatCounter from "../components/Statcounter";
 import { confirmMemory, deleteMemory, evaluateSolution, getInsights, getMemories, relativeTime, updateMemory } from "../memories";
 
 const severityMeta = { red: { color: "#fb7185", label: "Recurring risk" }, yellow: { color: "#fbbf24", label: "Worth remembering" }, green: { color: "#34d399", label: "One-off lesson" } };
